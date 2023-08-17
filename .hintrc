@@ -16,6 +16,7 @@
           "-webkit-overflow-scrolling"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }

@@ -1,19 +1,19 @@
-// class ViewBase {
-//     bridge;
+class ViewBase {
+    bridge;
   
-//     constructor() {
-//       this.bridge = window.Bridge;
-//       this.attachEvents();
-//     }
+    constructor() {
+      this.bridge = window.Bridge;
+      this.attachEvents();
+    }
   
-//     //Document element selector
-//     get(el) {
-//       return document.querySelector(el);
-//     }
+    //Document element selector
+    get(el) {
+      return document.querySelector(el);
+    }
   
-//     getAll(els) {
-//       return document.querySelectorAll(el);
-//     }
+    getAll(els) {
+      return document.querySelectorAll(el);
+    }
   
-//     attachEvents() {}
-//   }
+    attachEvents() {}
+  }

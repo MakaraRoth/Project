@@ -1,20 +1,20 @@
-module.exports = [{
-
-  label: 'Electron',
-  submenu: [
-    { label: 'item1' },
-    {
-      label: 'item2',
-      submenu: [
-        {
-          label: 'sub1',
-        }, {
-          label: 'sub2',
-        }, {
-          label: 'sub3',
-        }
-      ]
-    },
+module.exports = [
+  {
+    label: 'Electron',
+    submenu: [
+      { label: 'item1' },
+      {
+        label: 'item2',
+        submenu: [
+          {
+            label: 'sub1',
+          }, {
+            label: 'sub2',
+          }, {
+            label: 'sub3',
+          }
+        ]
+      },
     { label: 'item3' }, 
     { label: 'item4' },
     { label: 'item5' },
